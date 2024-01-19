@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFC0CB; /* Cor de fundo rosa */
+    margin: 0;
+    height: 100vh; /* Altura total da janela de visualização */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  /* Garanta que o h2 esteja alinhado */
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .envelope {
+    cursor: pointer;
+    background: url('/5849538-amor-confissao-em-um-envelope-rosa-com-coracao-cartoon-ilustracao-isolado-em-fundo-branco-santo-dia-dos-namorados-simbolo-de-carta-de-amor-vetor.png') no-repeat center center; /* Caminho para a imagem do envelope */
+    background-size: contain; /* Certifique-se de que a imagem do envelope se ajusta ao div */
+    width: 250px; /* Largura da imagem do envelope */
+    height: 250px; /* Altura da imagem do envelope */
+    transition: transform 0.3s ease;
+    border: 2px solid #FFC0CB; /* Borda rosa como o fundo para um efeito de integração */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar */
+    padding: 10px; /* Espaçamento interno para criar espaço ao redor da imagem */
+    background-color: #FFC0CB; /* Fundo branco para o envelope */
+  }
+  .envelope:hover {
+    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+  }
+  .mensagem {
+    display: none;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  .mensagem button {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FF69B4;
+    color: white;
+  }
+  .mensagem button:hover {
+    background-color: #FF1493;
+  }
+  .no-button {
+    position: relative;
+    transition: transform 0.0s ease; /* Movimento rápido */
+  }

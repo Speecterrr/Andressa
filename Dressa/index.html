@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite para um Date</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Clique no ♥ para uma surpresa!</h2>
+    <div class="envelope" onclick="mostrarMensagem()">
+        <!-- A imagem do envelope é adicionada via CSS -->
+    </div>
+
+    <div id="mensagemSurpresa" class="mensagem">
+        <p>Diga sim</p>
+        <p>Andressa, Aceitas ir em um date comigo? 🌹</p>
+        <button onclick="resposta('sim')">Sim</button>
+        <button class="no-button" onmouseover="moveButton(this)">Não</button>
+    </div>
+</div>
+
+<!-- Incluir arquivos de script e CSS externos -->
+<link rel="stylesheet" href="/index.css">
+<script src="/index.js"></script>
+
+</body>
+</html>
